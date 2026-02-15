@@ -9,13 +9,19 @@ export default createHandler(() => (
           <title>Custom Formula Calculator</title>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="description" content="Create custom formulas and have fun calculating" />
+          <meta
+            name="description"
+            content="Create custom formulas and have fun calculating"
+          />
           <meta name="theme-color" content="#1f2937" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
           <meta name="apple-mobile-web-app-title" content="Custom Formulas" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="manifest" href="/manifest.webmanifest" />
+          <link rel="manifest" href="/_build/manifest.webmanifest" />
           {assets}
         </head>
         <body>
