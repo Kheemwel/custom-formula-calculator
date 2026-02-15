@@ -6,6 +6,7 @@ export default createHandler(() => (
     document={({ assets, children, scripts }) => (
       <html lang="en" data-theme="black">
         <head>
+          <title>Custom Formula Calculator</title>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="Create custom formulas and have fun calculating" />
