@@ -1,0 +1,27 @@
+{
+  "name": "custom-formula-calculator",
+	"version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.1.0",
+    "lucide-solid": "^0.564.0",
+    "solid-js": "^1.9.5",
+    "vinxi": "^0.5.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.7",
+    "daisyui": "^5.5.18",
+    "tailwindcss": "^4.0.7",
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
