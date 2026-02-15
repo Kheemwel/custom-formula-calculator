@@ -45,9 +45,10 @@ export default function Home() {
             <button
               class="btn btn-sm btn-ghost border border-base-300"
               onClick={() => fileInput?.click()}
+              title="Import JSON"
             >
-              <FileUp class="w-4 h-4 mr-2" />
-              Import JSON
+              <FileUp class="w-6 h-6 md:mr-2" />
+              <span class="hidden md:inline">Import JSON</span>
             </button>
             <button
               class="btn btn-sm btn-ghost border border-base-300"
@@ -55,9 +56,10 @@ export default function Home() {
                 console.log("Exporting formulas:", formulaStore.formulas);
                 formulaStore.exportAll();
               }}
+              title="Export All"
             >
-              <FileDown class="w-4 h-4 mr-2" />
-              Export All
+              <FileDown class="w-6 h-6 md:mr-2" />
+              <span class="hidden md:inline">Export All</span>
             </button>
           </>
         }
